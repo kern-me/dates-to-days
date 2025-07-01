@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dates to Days Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📅 Dates to Days Calculator</h1>
+            <p>Calculate the number of days between two dates in real-time</p>
+        </header>
+        
+        <main class="calculator">
+            <div class="date-inputs">
+                <div class="date-group">
+                    <label for="start-date">Start Date:</label>
+                    <input type="date" id="start-date" name="start-date">
+                </div>
+                
+                <div class="date-group">
+                    <label for="end-date">End Date:</label>
+                    <input type="date" id="end-date" name="end-date">
+                </div>
+            </div>
+            
+            <div class="results" id="results">
+                <div class="result-card">
+                    <h3>Days Between Dates</h3>
+                    <div class="result-value" id="days-result">--</div>
+                    <p class="result-description">Select two dates to see the calculation</p>
+                </div>
+                
+                <div class="additional-info" id="additional-info">
+                    <!-- Additional information will be populated here -->
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Built with disdain for the cluttered UI of TimeAndDate.com by <a href="https://www.nicokillips.com" target="_blank">Nico Killips</a> </p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 

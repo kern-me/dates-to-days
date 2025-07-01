@@ -1,0 +1,23 @@
+{
+  "name": "dates-to-days",
+  "version": "1.0.0",
+  "description": "A simple web app that calculates the number of days between two dates",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/index.html",
+    "dev": "live-server --port=3000 --open=/index.html --watch=.",
+    "serve": "live-server --port=3000"
+  },
+  "keywords": [
+    "date",
+    "calculator",
+    "days",
+    "web-app",
+    "vanilla-js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+} 
